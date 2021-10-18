@@ -1,7 +1,7 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/DARKCRIME1/ng19 /root/ng19
-WORKDIR /root/ng19/
+RUN git clone https://github.com/Pake-Alis/- /root/WhatsAsenaDuplicated
+WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN yarn install --no-audit

@@ -13,7 +13,7 @@ if (Config.WORKTYPE == 'public') {
         var ttinullimage = await axios.get(`https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `╔═════════════════════╗
-║      ❰🍁🔱  T Rex BOT  🔱🍁❱  
+║      ❰🍁🔱  ○○☓○○ʜᴜɴᴛᴏʀ○○☓○○ BOT  🔱🍁❱  
 ║        ║🍁╚ATTP PACK╝🍁║
 ║
 ╠═➢ 🍁.01attp      ❴your text❵
@@ -99,7 +99,7 @@ if (Config.WORKTYPE == 'public') {
 ║
 ║▷Creator: HIRUSHA
 ║
-║ ❰🍁🔱  T Rex BOT  🔱🍁❱  
+║ ❰🍁🔱  ○○☓○○ʜᴜɴᴛᴏʀ○○☓○○ BOT  🔱🍁❱  
 ╚═════════════════════╝
 `,quoted: message.data})
 
